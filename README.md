@@ -55,7 +55,7 @@ The **Digital Academic Library** aims to solve these challenges by offering a mo
 
 ```bash
 # Clone the repository
-git clone https://github.com/ashishlukka1/Digital-Academic-Library.git
+git clone https://github.com/Janjirala-Srikar/Digital-Library.git
 cd Digital-Academic-Library
 
 # Install dependencies
