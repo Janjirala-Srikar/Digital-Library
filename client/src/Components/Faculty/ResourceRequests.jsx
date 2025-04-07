@@ -11,7 +11,7 @@ const ResourceRequests = () => {
   useEffect(() => {
     const fetchResourceRequests = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/faculty/get-req");
+        const response = await axios.get("https://digital-library-g6z9.onrender.com/faculty/get-req");
         console.log("API Response:", response.data);
 
         // Check if response data is in expected format

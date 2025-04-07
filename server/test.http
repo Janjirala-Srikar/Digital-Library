@@ -1,5 +1,5 @@
 ###
-POST http://localhost:5000/api/users/register
+POST https://digital-library-g6z9.onrender.com/api/users/register
 Content-Type: application/json
 
 {
@@ -24,7 +24,7 @@ Content-Type: application/json
 
 
 ###
-GET http://localhost:5000/users/signin 
+GET https://digital-library-g6z9.onrender.com/users/signin 
 Content-Type: application/json
 
 {
@@ -34,7 +34,7 @@ Content-Type: application/json
 
 
 ### Create a new academic resource request
-POST http://localhost:5000/users/requests
+POST https://digital-library-g6z9.onrender.com/users/requests
 Content-Type: application/json
 
 {
@@ -48,7 +48,7 @@ Content-Type: application/json
 
 
 ### Submit a Book Resource Request
-POST http://localhost:5000/faculty/post-book
+POST https://digital-library-g6z9.onrender.com/faculty/post-book
 Content-Type: application/json
 
 {
@@ -61,10 +61,10 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:5000/users/get-books
+GET https://digital-library-g6z9.onrender.com/users/get-books
 
 
 
 ### Get all academic resource requests
-GET http://localhost:5000/faculty/get-req
+GET https://digital-library-g6z9.onrender.com/faculty/get-req
 
