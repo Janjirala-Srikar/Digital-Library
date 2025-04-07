@@ -10,7 +10,7 @@ export const SocketProvider = ({ children }) => {
 
   useEffect(() => {
     // Connect to the Socket.io server
-    const newSocket = io('http://localhost:3001');
+    const newSocket = io('https://digital-library-g6z9.onrender.com');
     setSocket(newSocket);
 
     // Listen for the updated list of available rooms
