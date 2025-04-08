@@ -51,7 +51,7 @@ The **Digital Academic Library** aims to solve these challenges by offering a mo
 - **Notifications:** Twilio API for SMS updates
 - **AI Assistant:** Gemini API integration
 
-## 🚀 How to Run Locally
+## 🚀 How to Run Locally.
 
 ```bash
 # Clone the repository
